@@ -19,6 +19,8 @@ main {
     flex: 1 0 auto;
   }
 
+
+
 /* The Modal (background) */
 .modal {
     /* Hidden by default */
@@ -61,6 +63,24 @@ main {
     cursor: pointer;
   }
 
+/* Game area */
+.game-box {
+  border: 2px solid lightcoral;
+  border-radius: 25px;
+  background-color: lightcoral;
+}
+
+.display {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between
+}
+
+/*  Footer */
 footer {
     display: flex;
     justify-content: center;
