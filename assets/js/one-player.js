@@ -3,9 +3,23 @@ let computerChoice;
 let result;
 let choices = document.getElementsByClassName('choice');
 let outcome = document.getElementById('result');
+let clearDisplay = document.getElementsByClassName('display')[0];
 
+// Wait for the DOM to finish loading before running the game
+document.addEventListener("DOMContentLoaded", () => {
+    getUserChoice();
 
+    // Add event listener to play again button
+    let reset = document.getElementById('reset');
+    reset.addEventListener('click', () => {
+        toggle();
 
+    // Clear results display 
+    clearDisplay.innerHTML = `<p id="user-choice"></p>
+    <p id="computer-choice"></p>
+    <p id="result"></p>`;
+    });
+});
 
 /**
  * Gets and displays the user's choice
