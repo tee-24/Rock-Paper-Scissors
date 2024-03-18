@@ -1,5 +1,8 @@
 // Global variables
 let playerOneChoice;
+let playerTwoChoice;
+let result;
+let outcome = document.getElementById('result');
 
 /**
  * Gets and displays Player 1 choice
@@ -69,4 +72,20 @@ function checkWinner() {
 function displayResult() {
     outcome.textContent = `${result}`;
     toggle();
+}
+
+/** 
+ * Gets player 1 score from the DOM and increments it by 1 
+ */
+function incrementPlayer1Score() {
+    let player1Score = parseInt(document.getElementById('player1-score').innerText);
+    document.getElementById('player1-score').innerText = ++player1Score;
+}
+
+/** 
+ * Gets player 2 score from the DOM and increments it by 1 
+ */
+function incrementPlayer2Score() {
+    let player2Score = parseInt(document.getElementById('player2-score').innerText);
+    document.getElementById('player2-score').innerText = ++player2Score;
 }
