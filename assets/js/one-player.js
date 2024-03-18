@@ -1,3 +1,8 @@
+let userChoice;
+let computerChoice;
+let result;
+let choices = document.getElementsByClassName('choice');
+let outcome = document.getElementById('result');
 
 
 
@@ -12,7 +17,9 @@ function getUserChoice() {
             userChoice = (choice.textContent).toLowerCase();
             console.log(userChoice);
             document.getElementById('user-choice').textContent = `You chose: ${userChoice}`;
-           
+            displayComputerChoice();
+            checkWinner();
+            displayResult();
         })
     }
 }
@@ -30,7 +37,6 @@ function displayComputerChoice() {
 }
 /**
  * Checks for winner
- * and displays game results
  */
 function checkWinner() {
 
@@ -57,4 +63,13 @@ function checkWinner() {
     } else {
         outcome.style.color = 'white'
     }
+}
+/**
+ * Displays game results
+ */
+function displayResult() {
+    console.log(result)
+    console.log(clearDisplay)
+    outcome.textContent = `${result}`;
+    
 }
