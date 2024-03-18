@@ -26,7 +26,8 @@ function getPlayerTwoChoice() {
         choice.addEventListener('click', () => {
             playerTwoChoice = (choice.textContent).toLowerCase();
             document.getElementById('player2-choice').textContent = `Player 2 chose: ${playerTwoChoice}`;
-            
+            checkWinner();
+            displayResult();
         })
     }
 }
@@ -60,4 +61,12 @@ function checkWinner() {
             outcome.style.color = 'darkblue';
         }
     }
+}
+
+/**
+ * Displays game results
+ */
+function displayResult() {
+    outcome.textContent = `${result}`;
+    toggle();
 }
