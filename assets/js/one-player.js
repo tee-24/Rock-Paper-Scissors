@@ -71,5 +71,17 @@ function displayResult() {
     console.log(result)
     console.log(clearDisplay)
     outcome.textContent = `${result}`;
-    
+    toggle();
+}
+/**
+ * Disables game buttons after playing
+ */
+function toggle() {
+    for (let choice of choices) {
+        if (choice.disabled === true) {
+            choice.disabled = false;
+        } else {
+            choice.disabled = true;
+        }
+    }
 }
