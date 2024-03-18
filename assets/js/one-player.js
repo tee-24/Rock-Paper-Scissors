@@ -76,7 +76,7 @@ function checkWinner() {
         incrementComputerScore();
         outcome.style.color = 'red'
     } else {
-        outcome.style.color = 'white'
+        outcome.style.color = 'darkblue'
     }
 }
 /**

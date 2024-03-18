@@ -26,8 +26,38 @@ function getPlayerTwoChoice() {
         choice.addEventListener('click', () => {
             playerTwoChoice = (choice.textContent).toLowerCase();
             document.getElementById('player2-choice').textContent = `Player 2 chose: ${playerTwoChoice}`;
-            checkWinner();
-            displayResult();
+            
         })
+    }
+}
+
+/**
+ * Checks for winner
+ */
+function checkWinner() {
+
+    if (playerOneChoice === playerTwoChoice) {
+        console.log("Tie!");
+    } else {
+        switch (playerOneChoice) {
+            case 'rock':
+                result = (playerTwoChoice === 'paper') ? "Player 2 wins" : "Player 1 wins";
+                break;
+            case 'paper':
+                result = (playerTwoChoice === 'scissors') ? "Player 2 wins" : "Player 1 wins";
+                break;
+            case 'scissors':
+                result = (playerTwoChoice === 'rock') ? "Player 2 wins" : "Player 1 wins";
+                break;
+        }
+        if (result === "Player 1 wins") {
+            outcome.style.color = 'green';
+            incrementPlayer1Score();
+        } else if (result === "Player 2 wins") {
+            outcome.style.color = 'green';
+            incrementPlayer2Score();
+        } else {
+            outcome.style.color = 'darkblue';
+        }
     }
 }
