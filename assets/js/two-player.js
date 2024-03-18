@@ -15,3 +15,19 @@ function getPlayerOneChoice() {
         })
     }
 }
+
+/**
+ * Gets and displays Player 2 choice
+ */
+function getPlayerTwoChoice() {
+    let choices = document.getElementsByClassName('choice2');
+
+    for (let choice of choices) {
+        choice.addEventListener('click', () => {
+            playerTwoChoice = (choice.textContent).toLowerCase();
+            document.getElementById('player2-choice').textContent = `Player 2 chose: ${playerTwoChoice}`;
+            checkWinner();
+            displayResult();
+        })
+    }
+}
