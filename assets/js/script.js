@@ -10,5 +10,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
         options.innerHTML = playerOptions;
         });
-        
+        // Get the modal
+        let modal = document.getElementById("help");
+        // Open modal when clicked
+        let instruction = document.getElementById('instructions');
+
+        instruction.addEventListener('click', () => {
+            modal.style.display = 'block';
+  })
     });
