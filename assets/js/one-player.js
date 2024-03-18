@@ -28,3 +28,33 @@ function displayComputerChoice() {
     let display = document.getElementById('computer-choice');
     display.textContent = `Computer chose: ${computerChoice}`;
 }
+/**
+ * Checks for winner
+ * and displays game results
+ */
+function checkWinner() {
+
+    if (userChoice === computerChoice) {
+        result = "It's a Tie!";
+    } else {
+        switch (userChoice) {
+            case 'rock':
+                result = (computerChoice === 'paper') ? "You lost!" : "You win!";
+                break;
+            case 'paper':
+                result = (computerChoice === 'scissors') ? "You lost!" : "You win!";
+                break;
+            case 'scissors':
+                result = (computerChoice === 'rock') ? "You lost!" : "You win!";
+        }
+    }
+    if (result === "You win!") {
+        outcome.style.color = 'green'
+        incrementUserScore();
+    } else if (result === "You lost!") {
+        incrementComputerScore();
+        outcome.style.color = 'red'
+    } else {
+        outcome.style.color = 'white'
+    }
+}
