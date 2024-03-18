@@ -4,7 +4,6 @@ let computerChoice;
 let result;
 let choices = document.getElementsByClassName('choice');
 let outcome = document.getElementById('result');
-let clearDisplay = document.getElementsByClassName('display')[0];
 
 // Wait for the DOM to finish loading before running the game
 document.addEventListener("DOMContentLoaded", () => {
@@ -16,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         toggle();
 
     // Clear results display 
+    let clearDisplay = document.getElementsByClassName('display')[0];
     clearDisplay.innerHTML = `<p id="user-choice"></p>
     <p id="computer-choice"></p>
     <p id="result"></p>`;
@@ -83,8 +83,6 @@ function checkWinner() {
  * Displays game results
  */
 function displayResult() {
-    console.log(result)
-    console.log(clearDisplay)
     outcome.textContent = `${result}`;
     toggle();
 }

@@ -4,6 +4,24 @@ let playerTwoChoice;
 let result;
 let outcome = document.getElementById('result');
 
+// Wait for the DOM to finish loading before running the game
+document.addEventListener("DOMContentLoaded", () => {
+    getPlayerOneChoice();
+    getPlayerTwoChoice();
+
+    // Add event listener to play again button
+    let reset = document.getElementById('reset');
+    reset.addEventListener('click', () => {
+        toggle();
+
+    // Clear results display 
+    let clearDisplay = document.getElementsByClassName('display-box')[0];
+    clearDisplay.innerHTML = `<p id="player1-choice"></p>
+    <p id="player2-choice"></p>
+    <p id="result"></p>`
+    });
+});
+
 /**
  * Gets and displays Player 1 choice
  */
@@ -14,7 +32,6 @@ function getPlayerOneChoice() {
         choice.addEventListener('click', () => {
             playerOneChoice = (choice.textContent).toLowerCase();
             document.getElementById('player1-choice').textContent = `Player 1 chose: ${playerOneChoice}`;
-            console.log(playerOneChoice);
         })
     }
 }
@@ -41,7 +58,7 @@ function getPlayerTwoChoice() {
 function checkWinner() {
 
     if (playerOneChoice === playerTwoChoice) {
-        console.log("Tie!");
+        result = "It's a Tie!";
     } else {
         switch (playerOneChoice) {
             case 'rock':
@@ -70,6 +87,7 @@ function checkWinner() {
  * Displays game results
  */
 function displayResult() {
+    console.log(result)
     outcome.textContent = `${result}`;
     toggle();
 }
