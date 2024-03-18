@@ -85,3 +85,18 @@ function toggle() {
         }
     }
 }
+/** 
+ * Gets the user score from the DOM and increments it by 1 
+ */
+function incrementUserScore() {
+    let userScore = parseInt(document.getElementById('user-score').innerText);
+    document.getElementById('user-score').innerText = ++userScore;
+}
+
+/** 
+ * Gets the computer score from the DOM and increments it by 1 
+ */
+function incrementComputerScore() {
+    let computerScore = parseInt(document.getElementById('computer-score').innerText);
+    document.getElementById('computer-score').innerText = ++computerScore;
+}
