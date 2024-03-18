@@ -74,6 +74,29 @@ function displayResult() {
     toggle();
 }
 
+/**
+ * Disables game buttons after Player 2 plays
+ */
+function toggle() {
+    let choices1 = document.getElementsByClassName('choice1');
+    let choices2 = document.getElementsByClassName('choice2');
+
+    for (let choice1 of choices1) {
+        if (choice1.disabled === true) {
+            choice1.disabled = false;
+        } else {
+            choice1.disabled = true;
+        }
+    }
+    for (let choice2 of choices2) {
+        if (choice2.disabled === true) {
+            choice2.disabled = false;
+        } else {
+            choice2.disabled = true;
+        }
+    }
+}
+
 /** 
  * Gets player 1 score from the DOM and increments it by 1 
  */
