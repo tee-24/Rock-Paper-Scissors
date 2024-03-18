@@ -62,5 +62,12 @@ To clone the repository:
 7.  Paste the link you copied in step 3
 8. Press enter
 
+## Credits
+* Fonts were sourced from [Google Fonts](https://fonts.google.com/)
+* Favicon was sourced from [Favicon Generator](favicon.io)
+* Button disabled property was learned from [W3 Schools](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp)
+* Modal box was learned from [W3 Schools](https://www.w3schools.com/howto/howto_css_modals.asp)
+* [Table to Markdown](https://tabletomarkdown.com/) was used to cnvert Google sheets to Markdown language
+
 ### Acknowledgements
 This site was designed and developed in conjunction with the Full Stack Software Developer Diploma course (ecommerce) at the Code Institute. I would like to thank my mentor, Daisy, the Slack community, and Code Institute for all their support.
