@@ -10,4 +10,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
         options.innerHTML = playerOptions;
         });
+        
     });
