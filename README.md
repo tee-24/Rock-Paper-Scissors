@@ -62,6 +62,10 @@ To clone the repository:
 7.  Paste the link you copied in step 3
 8. Press enter
 
+### Known Bugs
+
+1. After clicking the play again button, the result of the game is no longer printed to the display. However, the scores are still updating accordingly
+
 ## Credits
 * Fonts were sourced from [Google Fonts](https://fonts.google.com/)
 * Favicon was sourced from [Favicon Generator](favicon.io)
