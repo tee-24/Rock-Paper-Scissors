@@ -1,3 +1,4 @@
+// Global variables
 let userChoice;
 let computerChoice;
 let result;
