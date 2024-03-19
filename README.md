@@ -1,7 +1,7 @@
 # Rock, Paper, Scissors
 Rock, paper scissors is a fun online game. It can be played alone or with a friend. Get ready to throw down some moves and see who comes out on top!
 
-You can view the live site here - [Rock-Paper-Scissors](https://tee-24.github.io/Rock-Paper-Scissors/index.html)
+You can view the live site here - [Rock-Paper-Scissors](https://tee-24.github.io/Rock-Paper-Scissors/)
 
 ![AmIResponsive](assets/docs/amIresponsive.png)
 
