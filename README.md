@@ -186,6 +186,12 @@ Landing Page
 ### W3C Validator
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
+* [Index Page-HTML](assets/docs/w3c-index.png)
+* [1-Player Game Page-HTML](assets/docs/w3c-1p.png)
+* [2-Player Game Page-HTML](assets/docs/w3c-2p.png)
+* [404 Error Page-HTML](assets/docs/w3c-404.png)
+* [style.css-CSS](assets/docs/w3c-css.png)
+
 ### Manual Testing
 To fully test my website I performed the following testing using a number of browsers (Google Chrome and Safari) and devices (HP laptop, iPad Pro 12.9 inch, iPhone 11 pro max).
 
@@ -208,7 +214,7 @@ To fully test my website I performed the following testing using a number of bro
 * Favicon was sourced from [Favicon Generator](favicon.io)
 * Button disabled property was learned from [W3 Schools](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp)
 * Modal box was learned from [W3 Schools](https://www.w3schools.com/howto/howto_css_modals.asp)
-* [Table to Markdown](https://tabletomarkdown.com/) was used to cnvert Google sheets to Markdown language
+* [Table to Markdown](https://tabletomarkdown.com/) was used to convert Google sheets to Markdown language
 
 ### Acknowledgements
 This site was designed and developed in conjunction with the Full Stack Software Developer Diploma course (ecommerce) at the Code Institute. I would like to thank my mentor, Daisy, the Slack community, and Code Institute for all their support.
