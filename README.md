@@ -158,8 +158,30 @@ To clone the repository:
 4. Copy the link shown
 5. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory
 6. Type 'git clone' into the terminal 
-7.  Paste the link you copied in step 3
+7. Paste the link you copied in step 3
 8. Press enter
+
+## Testing 
+Testing was ongoing throughout the entire build. I utilized Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
+
+### Lighthouse Testing
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+
+Landing Page
+
+![index](assets/docs/index-lh.png)
+
+1-Player Game Page
+
+![one-player](assets/docs/1p-lh.png)
+
+2-Player Game Page
+
+![two-player](assets/docs/2p-lh.png)
+
+404 Error Page
+
+![404](assets/docs/404-lh.png)
 
 ### Manual Testing
 To fully test my website I performed the following testing using a number of browsers (Google Chrome and Safari) and devices (HP laptop, iPad Pro 12.9 inch, iPhone 11 pro max).
