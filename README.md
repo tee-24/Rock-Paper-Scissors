@@ -183,6 +183,9 @@ Landing Page
 
 ![404](assets/docs/404-lh.png)
 
+### W3C Validator
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
 ### Manual Testing
 To fully test my website I performed the following testing using a number of browsers (Google Chrome and Safari) and devices (HP laptop, iPad Pro 12.9 inch, iPhone 11 pro max).
 
