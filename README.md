@@ -96,7 +96,16 @@ The website consists of 4 pages; the landing page, the game page for one player,
 
   ![homepage](assets/docs/homepage.png)
 
+* 404 Error Page
 
+  * A message tells the user that the requested page cannot be found.
+
+  * Contains a link to go back the the landing page without needing to use the back button.
+
+  ![error-404](assets/docs/404.png)
+
+### Future Features
+  1. Round selection - The user would be able to choose how many rounds of the game they would like to play to determine the winner rather than having to use the play again button after every round
 
 ## Technologies Used
 
