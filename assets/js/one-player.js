@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", () => {
     reset.addEventListener('click', () => {
         toggle();
 
-    // Clear results display 
-    let clearDisplay = document.getElementsByClassName('display')[0];
-    clearDisplay.innerHTML = `<p id="user-choice"></p>
+        // Clear results display 
+        let clearDisplay = document.getElementsByClassName('display')[0];
+        clearDisplay.innerHTML = `<p id="user-choice"></p>
     <p id="computer-choice"></p>
     <p id="result"></p>`;
     });

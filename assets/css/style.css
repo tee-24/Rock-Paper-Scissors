@@ -129,6 +129,11 @@ button:hover {
   justify-content: space-between
 }
 
+/* Error 404 Page */
+#error{
+  text-align: center;
+}
+
 /*  Footer */
 footer {
     display: flex;

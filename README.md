@@ -96,6 +96,8 @@ The website consists of 4 pages; the landing page, the game page for one player,
 
   ![homepage](assets/docs/homepage.png)
 
+
+
 ## Technologies Used
 
 * HTML5 - Delivers the structure and content for the game
