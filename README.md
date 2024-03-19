@@ -22,6 +22,80 @@ You can view the live site here - [Rock-Paper-Scissors](https://tee-24.github.io
 * To allow a single player to play against the computer
 * To allow two players to play against each other
 
+## Features
+
+The website consists of 4 pages; the landing page, the game page for one player, and the game page for two players. The fourth page is a 404 error page which will open if the user clicks on a broken link.
+
+* All Pages on the website have:
+
+  * Favicon - This will provide an image in the the tab's header to allow the user to easily identify the website if they have multiple tabs open. The video game emoji was chosen as it matched the theme of the website.
+
+  ![favicon](assets/docs/favicon.png)
+
+  * A responsive header containing the name of the game.
+
+  ![header](assets/docs/header.png)
+
+  * Buttons - When the mouse hovers over the buttons, the background color of the button changes to aqua.
+
+  ![buttons](/assets/docs/button.png)
+
+  * A responsive footer.
+
+  ![footer](assets/docs/footer.png)
+
+* Landing Page
+  * Start Game button - When clicked, this button will change the content of the page and show 2 new buttons which will allow the user to select whether there are one or two players.
+
+ ![number-of-players](assets/docs/players.png)
+ 
+  * Instructions button - When clicked, a modal, containing the instructions for the game, will pop up.
+
+  ![instructions](assets/docs/instruction.png)
+
+* Game Page (1 Player)
+  * Score section - A responsive score tracker under the header which tallies the number of wins of the user and the computer.
+
+  ![score-area](assets/docs/score-area.png)
+
+  * Game area - Here, the user will choose either rock, paper or scissors. The buttons will become disabled once the user has made a choice.
+
+  ![game-area](assets/docs/game-area.png)
+
+  * Display area - This will display the user's choice, the computer's choice, and the result of the game.
+
+  ![display-area](assets/docs/display.png)
+
+  * Play again button - This will clear the display area and reset the game to be played again.
+
+  ![play-again](assets/docs/play-again.png)
+
+  * Back to homepage button - This button will return the user back to the landing page.
+
+  ![homepage](assets/docs/homepage.png)
+
+
+* Game Page (2 Player)
+  * Score section - A responsive score tracker under the header which tallies the number of wins of Player 1 and Player 2.
+
+  ![score-area](assets/docs/score-area-2.png)
+
+  * Game area - This is split into 2 sections. In the first section, Player 1 will choose either rock, paper or scissors. In the second section, Player 2 will choose either rock, paper or scissors. The buttons will become disabled once both players have made a choice.
+
+  ![game-area](assets/docs/game-area-2.png)
+
+  * Display area - This will display Player 1 choice, Player 2 choice, and the result of the game.
+
+  ![display-area](assets/docs/display2.png)
+
+  * Play again button - This will clear the display area and reset the game to be played again.
+
+  ![play-again](assets/docs/play-again.png)
+
+  * Back to homepage button - This button will return the user back to the landing page.
+
+  ![homepage](assets/docs/homepage.png)
+
 ## Technologies Used
 
 * HTML5 - Delivers the structure and content for the game
