@@ -22,6 +22,13 @@ You can view the live site here - [Rock-Paper-Scissors](https://tee-24.github.io
 * To allow a single player to play against the computer
 * To allow two players to play against each other
 
+## Design
+### Color Scheme
+The final color scheme chosen was pink and light coral with black text.
+
+### Typography 
+The font chosen was Graduate.
+
 ## Features
 
 The website consists of 4 pages; the landing page, the game page for one player, and the game page for two players. The fourth page is a 404 error page which will open if the user clicks on a broken link.
